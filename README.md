@@ -12,17 +12,13 @@ SpendLens is a free web app that audits a startup's AI tool spending across Curs
 
 ![Audit Form](./docs/screenshot-form.png)
 
-> **Results page (savings found)** — Hero savings number, per-tool breakdown with reasoning, Credex CTA for >$500/mo savings.
-
-![Audit Results - Savings](./docs/screenshot-results-savings.png)
-
-> **Results page (optimal)** — "You're spending well" state. Still captures the lead with notify-me signup.
+> **Results page (optimal spend)** — "You're spending well" state with AI summary and per-tool breakdown. Still captures the lead with notify-me signup.
 
 ![Audit Results - Optimal](./docs/screenshot-results-optimal.png)
 
-> **Share page** — Public, identifying-info-stripped URL with Open Graph meta tags for clean link previews.
+> **Lead capture modal** — Email gate shown after value is delivered. Optional company name, role, and team size fields.
 
-![Share Page](./docs/screenshot-share.png)
+![Lead Capture Modal](./docs/screenshot-lead-modal.png)
 
 ---
 
@@ -70,8 +66,7 @@ Set these environment variables in both platforms:
 
 ## Live URL
 
-> ⚠️ **Required before submission:** Replace with your actual deployed URL
-> `https://spendlens.vercel.app` ← update this
+`https://spend-lens-client.vercel.app`
 
 ---
 

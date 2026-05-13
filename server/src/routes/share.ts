@@ -50,10 +50,14 @@ shareRouter.get('/:id', async (req, res) => {
   <meta property="og:url" content="${pageUrl}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SpendLens">
+  <meta property="og:image" content="${siteUrl}/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${description}">
+  <meta name="twitter:image" content="${siteUrl}/og-image.png">
   <style>
     body { font-family: system-ui, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 16px; }
     h1 { color: #0f172a; }

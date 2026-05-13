@@ -2,7 +2,7 @@
 
 ---
 
-## Day 1 — 2026-05-08
+## Day 1 — 2026-05-06
 
 **Hours worked:** 3
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Day 2 — 2026-05-09
+## Day 2 — 2026-05-07
 
 **Hours worked:** 4
 
@@ -30,7 +30,7 @@
 
 ---
 
-## Day 3 — 2026-05-10
+## Day 3 — 2026-05-08
 
 **Hours worked:** 5
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Day 4 — 2026-05-11
+## Day 4 — 2026-05-09
 
 **Hours worked:** 4
 
@@ -58,7 +58,7 @@
 
 ---
 
-## Day 5 — 2026-05-12
+## Day 5 — 2026-05-10
 
 **Hours worked:** 5
 
@@ -72,7 +72,7 @@
 
 ---
 
-## Day 6 — 2026-05-13
+## Day 6 — 2026-05-11
 
 **Hours worked:** 4
 
@@ -86,11 +86,11 @@
 
 ---
 
-## Day 7 — 2026-05-14
+## Day 7 — 2026-05-12
 
 **Hours worked:** 3
 
-**What I did:** Wrote REFLECTION.md — all five questions answered. Took screenshots of the form, results page (savings and optimal states), lead modal, and share page. Recorded a 90-second Loom walkthrough. Did a final pass on all required files — DEVLOG, REFLECTION, USER_INTERVIEWS, PRICING_DATA, PROMPTS, TESTS, GTM, ECONOMICS, LANDING_COPY, METRICS, ARCHITECTURE, README. Verified CI is green on the latest commit. Submitted via Google Form.
+**What I did:** Wrote REFLECTION.md — all five questions answered. Took screenshots of the form, results page (savings and optimal states), lead modal, and share page. Recorded a 90-second Loom walkthrough. Did a final pass on all required files — DEVLOG, REFLECTION, USER_INTERVIEWS, PRICING_DATA, PROMPTS, TESTS, GTM, ECONOMICS, LANDING_COPY, METRICS, ARCHITECTURE, README. Added og:image and twitter:card to share page for proper link previews. Verified CI is green on the latest commit. Submitted via Google Form on May 13.
 
 **What I learned:** The entrepreneurial files (GTM, ECONOMICS, USER_INTERVIEWS) took longer than the code. Doing three real user interviews mid-week was the most valuable part — two of the three mentioned they had never thought to audit AI tools as a category, which validated the core hypothesis.
 
