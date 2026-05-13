@@ -20,7 +20,7 @@ export default function AuditForm() {
     setLoading(true)
     setError('')
     try {
-      const { data } = await axios.post('/api/audit', { tools, teamSize, useCase })
+      const { data } = await axios.post(`${import.meta.env.VITE_API_URL}/api/audit`, { tools, teamSize, useCase })
       navigate(`/results/${data.id}`, { state: { audit: data } })
     } catch {
       setError('Failed to run audit. Please try again.')

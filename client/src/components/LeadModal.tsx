@@ -21,7 +21,7 @@ export default function LeadModal({ auditId, onClose }: Props) {
     setLoading(true)
     setError('')
     try {
-      await axios.post('/api/lead', {
+      await axios.post(`${import.meta.env.VITE_API_URL}/api/lead`, {
         auditId,
         email,
         companyName: company,

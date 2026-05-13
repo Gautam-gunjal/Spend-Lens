@@ -18,7 +18,7 @@ export default function AuditResults() {
 
   useEffect(() => {
     if (!audit && id) {
-      axios.get<AuditResult>(`/api/audit/${id}`)
+      axios.get<AuditResult>(`${import.meta.env.VITE_API_URL}/api/audit/${id}`)
         .then((r) => setAudit(r.data))
         .catch(() => navigate('/'))
         .finally(() => setLoading(false))
